@@ -1,0 +1,8 @@
+.mobileWidth {
+  width: 50%;
+}
+@media screen and (max-width: 678px) {
+  .mobileWidth {
+    width: 100%;
+  }
+}

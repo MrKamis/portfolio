@@ -1,0 +1,8 @@
+Options FollowSymLinks
+RewriteEngine On
+RewriteRule ^index.htm$ index.php
+RewriteRule ^/$ index.php
+RewriteRule ^$ index.php
+RewriteRule ^o_mnie$ index.php?page=about
+RewriteRule ^cennik$ index.php?page=cennik
+RewriteRule ^projekty$ index.php?page=projects

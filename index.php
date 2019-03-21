@@ -6,21 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>mrkamis</title>
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
 </head>
 <body class="container">
     <nav class="navbar navbar-light border-bottom">
-        <a class="navbar-brand" href="./index.htm">
+        <a class="navbar-brand" href="./">
             mrkamis
         </a>
     </nav>
-    <article class="p-5">
-        <h3>Cześć!</h3>
-        <span>Szukasz webdevelopera? Dobrze trafiłeś!</span>
-        <hr>
-    
-        <a class="btn btn-link" href="sub/projekty.htm">Projekty</a>
-        <a class="btn btn-link" href="sub/cennik.htm">Cennik</a>
-        <a class="btn btn-link" href="sub/o_mnie.htm">Coś o mnie</a>
+    <article>
+        <?php
+            require_once "app/router.php";
+            Router::route($_GET);
+        ?>
     </article>
     <div class="border-top" id="footer">
         <div class="text-center font-italic">

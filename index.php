@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>mrkamis</title>
+    <meta name="description" content="Jeżeli szukasz webdevelopera, potrzebujesz osoby odpowiedzialnej za frontend czy backend albo szukasz kogoś kto ma wszystkie te umiejętności i pomoże Ci - w takim razie dobrze trafiłeś! Każda propozycja jest mile widziana :).">
+    <title>mrkamis - wszystko o mnie i moich projektach</title>
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="stylesheets/main.css" rel="stylesheet">
 </head>

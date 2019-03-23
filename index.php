@@ -10,10 +10,23 @@
     <link href="stylesheets/main.css" rel="stylesheet">
 </head>
 <body class="container">
-    <nav class="navbar navbar-light border-bottom">
+    <nav class="navbar navbar-light border-bottom navbar-expand-lg info-color">
         <a class="navbar-brand" href="./">
             mrkamis
         </a>
+        <div class="collapse navbar-collapse show">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="cennik">Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="o_mnie">Coś o mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projekty">Projekty</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <article>
         <?php

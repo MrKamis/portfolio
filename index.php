@@ -14,7 +14,10 @@
         <a class="navbar-brand" href="./">
             mrkamis
         </a>
-        <div class="collapse navbar-collapse show">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Nawigacja">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="cennik">Cennik</a>
@@ -40,5 +43,7 @@
             <a href="mailto:kamis2k16@outlook.com">poprzez email</a>
         </div>
     </div>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
 </body>
 </html>
